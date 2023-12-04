@@ -1,11 +1,11 @@
 input_strings = []
 
-with open(r"Advent of Code 2023\inputs\day_1.txt",'r') as input_file:
+with open(r"Advent of Code 2023\inputs\day_01.txt",'r') as input_file:
   input_strings.extend(line.strip() for line in input_file)
 
 final_sum = 0
 
-# # Part 1
+## Part 1
 # def number_parser(string):
 #     for i in string:
 #         if i.isnumeric():
