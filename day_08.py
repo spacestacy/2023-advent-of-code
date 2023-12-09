@@ -14,6 +14,7 @@ with open(r"Advent of Code\2023\spacestacy\inputs\day_08.txt",'r') as input_file
 # current_node = 'AAA'
 # current_direction = 0
 # steps = 0
+# 
 # while current_node != 'ZZZ':
 #     if current_direction == len(direction_instructions):
 #         current_direction = 0
@@ -25,11 +26,10 @@ with open(r"Advent of Code\2023\spacestacy\inputs\day_08.txt",'r') as input_file
 
 ## Part 2
 end_nodes = []
-
 for node in node_dict.keys():
     if node[-1] == 'A':
         end_nodes.append(node)
-print(end_nodes)
+
 def get_cycle_lengths(end_nodes):
     cycle_lenghts = []
     for node in end_nodes:
