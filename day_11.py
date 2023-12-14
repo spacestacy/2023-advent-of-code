@@ -5,7 +5,7 @@ with open(r"Advent of Code\2023\spacestacy\inputs\day_11.txt",'r') as input_file
     map = [list(i.strip()) for i in map]
 
 ## Part 1
-# def check_colum(column):
+# def check_column(column):
 #     for row in range(len(map)):
 #         if map[row][column] == "#":
 #             return False
@@ -22,7 +22,7 @@ with open(r"Advent of Code\2023\spacestacy\inputs\day_11.txt",'r') as input_file
 #         if row == len(map):
 #             break
 #     while True:
-#         if check_colum(column):
+#         if check_column(column):
 #             for row in range(len(map)):
 #                 map[row].insert(column + 1, '.')
 #             column += 1
